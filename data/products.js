@@ -656,36 +656,5 @@ export const products = [
       "apparel",
       "mens"
     ]
-  },
-  {
-    id: "id1",
-    image: "images/products/backpack.jpg",
-    name: "Black Zipper Backpack",
-    rating: {
-      stars: 4.5,
-      count: 1260
-    },
-    priceCents: 1950,
-    keywords: [
-      "backpack",
-      "black",
-      "school",
-      "mens"
-    ]
-  },
-  {
-    id: "id2",
-    image: "images/products/umbrella.jpg",
-    name: "Dark Green Umbrella",
-    rating: {
-      stars: 3.5,
-      count: 9843
-    },
-    priceCents: 1950,
-    keywords: [
-      "umbrealla",
-      "rain",
-      "green",
-    ]
   }
 ];
