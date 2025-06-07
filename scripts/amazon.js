@@ -58,7 +58,10 @@ products.forEach((product) => {
     `;
 });
 
-    document.querySelector('.js-products-grid').innerHTML = productsHTML;
+    const productsGrid = document.querySelector('.js-products-grid');
+    if (productsGrid) {
+        productsGrid.innerHTML = productsHTML;
+    }
 
     const addedMessageTimeouts = {};
 
